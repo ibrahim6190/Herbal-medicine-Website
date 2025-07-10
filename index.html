@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Wellness Wise</title>
     <link rel="stylesheet" href="./css/style.css" />
     <link
@@ -12,35 +12,37 @@
   </head>
   <body>
     <nav class="navbar">
-      <span style="font-family: sans-serif" color="brown"> WELLNESS WISE </span>
-
+      <div class="nav-left">
+        <span class="logo">WELLNESS WISE</span>
+      </div>
       <div class="nav-right">
-        <div class="navlinks">
-          <span>HOME</span>
-          <span>BLOG</span>
-          <span>OUR PRODUCTS</span>
-          <span>ABOUT US</span>
-          <span>CONTACT</span>
+        <ul class="navlinks">
+          <li><a href="#">HOME</a></li>
+          <li><a href="#">BLOG</a></li>
+          <li><a href="#">OUR PRODUCTS</a></li>
+          <li><a href="#">ABOUT US</a></li>
+          <li><a href="#">CONTACT</a></li>
+        </ul>
+        <div class="search-icon">
+          <i class="fa fa-search" aria-hidden="true"></i>
         </div>
-        <div class="bar">
-          <!-- <input type="text" placeholder="search" /> -->
-        </div>
-        <i class="fa fa-search" aria-hidden="true"></i>
       </div>
     </nav>
+
     <section class="hero">
       <div class="hero-overlay">
         <h1>Please Take Time To Explore</h1>
         <p>All our Products at the Click of a Button</p>
         <div class="hero-buttons">
-          <button>EXPLORE</button>
-          <button>Download Now</button>
+          <button class="btn-primary">EXPLORE</button>
+          <button class="btn-secondary">Download Now</button>
         </div>
       </div>
     </section>
-    <section>
+
+    <section class="features-section">
       <div class="feature feature-1">
-        <img src="./img/2.jpg" alt="feature-1" />
+        <img src="./img/2.jpg" alt="Cinnamon and Lime Tea" />
         <div class="feature-text">
           <h2>CINNAMON AND LIME TEA</h2>
           <p>
@@ -49,9 +51,10 @@
             blood sugar levels, which can prevent spikes and crashes in energy
             and hunger, potentially aiding in weight management.
           </p>
-          <button>READ MORE</button>
+          <button class="btn-primary btn-small">READ MORE</button>
         </div>
       </div>
+
       <div class="feature feature-2">
         <div class="feature-text">
           <h2>LIVER DETOX TEA</h2>
@@ -60,10 +63,11 @@
             Support Care, Milk Thistle Tea with High Content Milk Thistle Liver
             Detox of Milk
           </p>
-          <button>READ MORE</button>
+          <button class="btn-primary btn-small">READ MORE</button>
         </div>
-        <img src="./img/3.png" alt="feature-1" />
+        <img src="./img/3.png" alt="Liver Detox Tea" />
       </div>
+
       <div class="feature-3">
         <div class="feature-text-1">
           <h3>LIFE SAVING PRODUCTS</h3>
@@ -72,33 +76,44 @@
             products. Be sure read about the testimonies our clients have given
             after using our products.
           </p>
-          <button>MORE INFO</button>
+          <button class="btn-primary btn-small">MORE INFO</button>
         </div>
       </div>
-      <div class="feature-4">
-        <div class="text-4">
-          <h3>Captivating Images</h3>
-          <p>
-            Here are some images that might exceed your imagination.There are
-            many more of such images for you to download, just click on the
-            download button to download.
-          </p>
-          <button>Download Now</button>
-        </div>
-        <div class="image-5"><img src="./img/5.jpg" alt="bg-image" /></div>
+    </section>
+
+    <section class="latest-projects">
+      <div class="current-text">
+        <h3>Our Latest Projects</h3>
+        <p>Here are our latest projects. You'll love them!</p>
       </div>
-      <div>
-        <div class="current-text">
-          <h3>Our Latest Projects</h3>
-          <p>Here are our latest projects. You'll love them!</p>
+      <div class="grid-container">
+        <div class="card">
+          <img src="img/6.jpg" alt="Fertility Gummies" />
+          <div class="caption">Fertility Gummies</div>
         </div>
-        <div class="grid-container">
-          <img src="img/6.jpg" alt="img1" />
-          <img src="img/7.jpg" alt="img2" />
-          <img src="img/8.jpg" alt="img3" />
-          <img src="img/9.jpg" alt="img4" />
-          <img src="img/10.jpg" alt="img5" />
-          <img src="img/11.jpg" alt="img6" />
+        <div class="card">
+          <img src="img/7.jpg" alt="The PU -ERH Tea" />
+          <div class="caption">The PU -ERH Tea</div>
+        </div>
+        <div class="card">
+          <img src="img/8.jpg" alt="Blood Pressure Balance" />
+          <div class="caption">Blood Pressure Balance</div>
+        </div>
+        <div class="card">
+          <img src="img/9.jpg" alt="Organic Ginseng" />
+          <div class="caption">Organic Ginseng</div>
+        </div>
+        <div class="card">
+          <img src="img/10.jpg" alt="Green Tea" />
+          <div class="caption">Green Tea</div>
+        </div>
+        <div class="card">
+          <img src="img/11.jpg" alt="MuscleTech Supplement" />
+          <div class="caption">MuscleTech Supplement</div>
+        </div>
+        <div class="card">
+          <img src="img/5.jpg" alt="Zero Sugar Candy" />
+          <div class="caption">Zero Sugar Candy</div>
         </div>
       </div>
     </section>
